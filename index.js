@@ -19,7 +19,7 @@ function createtable() {
     }
     // Check tableobj has no missing data.
     for (const entry of tableobj.entries()) {
-        if (entry[1].length < 4) {
+        if (entry[1].length < 2) {
             alert("Please make make sure you have copied every table detail from the jira table.");
             return;
         }
